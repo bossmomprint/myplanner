@@ -1,0 +1,138 @@
+  style="background-color:#FFCCCC; font-family:Helvetica; 
+border:none;color:black; 
+width:150px;height:40px;" 
+
+
+
+<script>
+        function show() {
+ 
+	    document.getElementById('btnID')
+                    .style.display = "block";
+
+            document.getElementById('image')
+                    .style.display = "block";
+
+	  document.getElementById('btnID')
+                    .style.display = "block";
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html> 
+<head>
+
+<style>  
+
+#image {
+            display: none;
+}
+
+div {    
+  padding-left: 50px;  
+  padding-right: 50px;  
+}  
+</style> 
+
+ 
+
+<body style="background-color:floralwhite;">
+
+   <div>
+
+<img align="left" src="C:\Users\belle\OneDrive\Documents\Rainbow Planner/BossMomPrintco.png" alt="BossMomPrintCo" style="width:250px;height:250px;"> 
+
+
+ <h3><p style="font-family: Georgia;">
+
+Hi there! 
+<img float="right" src="C:\Users\belle\OneDrive\Documents\Rainbow Planner/hello.png" alt="hello" style="width:40px;height:40px;"> </p></h3>
+ 
+
+<p style="font-family: Georgia;">
+
+
+<br> &ensp;I am so honored that this planner made its way to you. I want to thank you for supporting
+
+<a href="https://www.etsy.com/shop/BossMomPrintCo?ref=shop_sugg_market" target="_blank"> Boss Mom Print Co.</a> </br>
+
+<br>&ensp;Whether you're just starting your journey with digital planners or looking for a new one, I am so glad you chose my small shop. </br>
+
+<br>&ensp;As a busy mom, I started my digital planning journey when I went back to school and it helped me tremendously with organizing my son's school schedule,  
+<br>&ensp;doctor's appointments, my husband's work schedule, holidays, family gatherings, and so on, no more bulky paper planners, just my handy-dandy iPad. </br>
+
+<br>&ensp;I hope you find digital planning helpful to simplify, prioritize and make more time for what matters most.</br>
+
+<br>&ensp;Whenever you are ready to access your planner, please click the "My Planner" button below.
+
+<img align="right" src="C:\Users\belle\OneDrive\Documents\Rainbow Planner/thankyou.png" alt="hello" style="width:100px;height:100px;"> </p> </br>
+
+
+
+
+
+
+&emsp;&emsp;&emsp;&emsp;&ensp;
+ 
+<button onclick="2023(); 2024(); Undated()" id="plan"><strong>My Planner</strong> </button>
+
+</button>
+
+	<p id="2023"
+       style="color:green; font-size: 20px; font-weight: bold;">
+
+        <p id="2024"
+           style="color:green; font-size: 20px; font-weight: bold;">
+
+ 	<p id="Undated"
+           style="color:green; font-size: 20px; font-weight: bold;">
+        </p>
+
+
+<script>
+          var plan = document.getElementById('plan');
+	plan.innerHTML = 'Click on the button to call multiple functions';
+	var 2023 = document.getElementById('2023');
+        var 2024 = document.getElementById('2024');
+	var Undated = document.getElementById('Undated');
+
+function 2023() {
+2023.innnerHTML = 'From function 1';
+}
+
+
+        
+</script>
+
+
+
+        
+</script>
+
+
+
+
+
+
+ 
+
+</body>
+
+
+
+
+</div>
+
+</html>
